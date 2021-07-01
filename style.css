@@ -20,7 +20,7 @@
     position: absolute;
     background-color: black;
     height: 100%;
-    width: 152%;
+    width: 139%;
     z-index: -1;
     opacity: 0.3;
 }
@@ -67,19 +67,19 @@
  #home{
      display: flex;
      flex-direction: column;
-     padding: 3px 200px;
+     padding: 3px 20px;
      justify-content: center;
      align-items: center;
-     height: 600px;
+     height: 680px;
  }
  #home::before{
     content: "";
     position: absolute;
-    background-image: url(./image/res.jpg);
+    background-image: url(./image/r.jpg);
     background-size:cover;
     top: 0px;
     left:0px;
-    height: 100%;
+    height: 110%;
     width: 100%;
     z-index: -1;
     opacity: 0.89;
@@ -104,18 +104,19 @@
     display: flex;
 
 }
+
 #services .box{
     border: 2px solid brown;
     width: 800px;
     height: 300px;
-    padding: 15px 27px 48px 26px;
+    padding: 15px 27px 48px 55px;
     margin: 3px 6px;
     border-radius: 23px;
     background: #f2f2f2;
   
 }
 #services .box img{
-    height: 150px;
+    height: 120px;
     margin: auto;
     display: block;
     border-radius: 10px;
@@ -134,10 +135,10 @@
 #client-section::before{
     content: "";
     position: absolute;
-    background-image: url(./image/cl.jpg);
+    background-image: url(./image/m.jpg);
     background-size: cover;
     width: 100%;
-    height: 55%;
+    height: 70%;
     z-index: -1;
     opacity: 0.89;
 }
